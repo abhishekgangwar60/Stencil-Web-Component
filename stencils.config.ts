@@ -8,4 +8,5 @@ export const config: Config = {
         { type: 'dist' },
         { type: 'www' }
     ],
+    globalStyle: 'src/global/app.css'
 }
