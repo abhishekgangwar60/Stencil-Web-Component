@@ -3,6 +3,7 @@
     "short_name": "Stencil Web Component",
     "start_url": "/",
     "display": "standalone",
+    "author": "abhishek gangwar",
     "icons": [
         {
             "src": "assets/icon/icon.png",

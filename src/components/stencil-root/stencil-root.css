@@ -1,0 +1,15 @@
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw !important;
+    width: 100%;
+}
+
+.app-text{
+  font-size:20px;
+}
+
+.font-italic{
+    font-style: italic;
+}

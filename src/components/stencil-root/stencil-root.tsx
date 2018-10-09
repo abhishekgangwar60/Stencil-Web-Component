@@ -8,9 +8,15 @@ export class StencilRoot {
 
     render() {
         return (
-            <div>
-                Adios Amigos!! This is a stencil project to create web components.
-                Please Go to src/component/stencil-root.tsx tp
+            <div class="app-container">
+                <p>
+                    <div class='app-text'>
+                        Adios amigos!! <br />
+                        This is a stencil project to create web components.<br />
+                        Please Go to <span class="font-italic"> src/component/stencil-root.tsx</span> to changes the Code.<br />
+                        Happy Coding !!
+                    </div>
+                </p>
             </div>
         )
     }

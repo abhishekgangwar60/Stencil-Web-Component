@@ -1,10 +1,14 @@
 {
   "name": "stencil-web-component",
+  "private": true,
   "version": "1.0.0",
   "description": "A project to create webcomponent using stencil",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "stencil build --prerender",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "author": "abhishek gangwar",
   "license": "ISC",
